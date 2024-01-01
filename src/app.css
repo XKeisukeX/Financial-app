@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply py-3 px-6 bg-orange-500 rounded hover:opacity-90 ease-in duration-200 font-bold capitalize text-white;
+}
+
+.title {
+    @apply text-3xl lg:text-5xl md:text-4xl leading-snug font-bold lg:leading-tight capitalize mb-4;
+}
+
+.blob1 {
+    @apply h-80 w-80 bg-color-blob absolute -left-5 -z-10 blur-2xl opacity-30 rounded-full  overflow-hidden;
+}
+.blob2 {
+    @apply h-80 w-80 bg-orange-300 absolute right-0 bottom-10 -z-10 blur-2xl opacity-30 rounded-full overflow-hidden;
+}
